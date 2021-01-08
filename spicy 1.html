@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spicy Corner</title>
+
+
+
+
+</head>
+<body bgcolor="Sky blue">
+<font color="blue"> <h1> <marquee> until 31 march</marquee> </h1>
+</font>
+
+
+<center> <font color=" red"> <h1>Welcome to my spicy corner</h1> </font> </center>
+
+
+<center> <img src="htmlimage/Food.gifmaker"  width="50%"> </center>
+<button>About Us</button>
+
+<button>contact us</button>
+
+<button>Manu list</button>
+
+
+<p> This is resturentthis is resturentthis is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent this is resturent </p>
+ 
+ <a href="http://www.prothomalo.com">Like Us</a> 
+
+ <audio controls>
+<source src="htmlimage/mp3.jpeg">
+</audio>
+<video width="320" height="240" controls>
+  <source src="htmlimage/video.mp4">
+</video>
+ <i> <b> <font size="8" color="red"><p> ayesha is a good girl</p></font> </b></i>
+ 
+ <font size="8"> <mark> Aliya is a student </mark> </font> 
+ &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="htmlimage/berger.jpg" title=" good food">
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<table style="width:50%" border="1">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Ayesha</td>
+    <td>Alam</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Alia</td>
+    <td>Alam</td>
+    <td>5</td>
+  </tr>
+</table>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+<html> 
+<head> 
+	<script> 
+		//function that display value 
+		function dis(val) 
+		{ 
+			document.getElementById("result").value+=val 
+		} 
+		
+		//function that evaluates the digit and return result 
+		function solve() 
+		{ 
+			let x = document.getElementById("result").value 
+			let y = eval(x) 
+			document.getElementById("result").value = y 
+		} 
+		
+		//function that clear the display 
+		function clr() 
+		{ 
+			document.getElementById("result").value = "" 
+		} 
+	</script> 
+	<!-- for styling -->
+	<style> 
+		.title{ 
+		margin-bottom: 10px; 
+		text-align:center; 
+		width: 210px; 
+		color:green; 
+		border: solid black 2px; 
+		} 
+
+		input[type="button"] 
+		{ 
+		background-color:green; 
+		color: black; 
+		border: solid black 2px; 
+		width:100% 
+		} 
+
+		input[type="text"] 
+		{ 
+		background-color:white; 
+		border: solid black 2px; 
+		width:100% 
+		} 
+	</style> 
+</head> 
+<!-- create table -->
+<body> 
+	<div class = title >GeeksforGeeks Calculator</div> 
+	<table border="1"> 
+		<tr> 
+			<td colspan="3"><input type="text" id="result"/></td> 
+			<!-- clr() function will call clr to clear all value -->
+			<td><input type="button" value="c" onclick="clr()"/> </td> 
+		</tr> 
+		<tr> 
+			<!-- create button and assign value to each button -->
+			<!-- dis("1") will call function dis to display value -->
+			<td><input type="button" value="1" onclick="dis('1')"/> </td> 
+			<td><input type="button" value="2" onclick="dis('2')"/> </td> 
+			<td><input type="button" value="3" onclick="dis('3')"/> </td> 
+			<td><input type="button" value="/" onclick="dis('/')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4" onclick="dis('4')"/> </td> 
+			<td><input type="button" value="5" onclick="dis('5')"/> </td> 
+			<td><input type="button" value="6" onclick="dis('6')"/> </td> 
+			<td><input type="button" value="-" onclick="dis('-')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="7" onclick="dis('7')"/> </td> 
+			<td><input type="button" value="8" onclick="dis('8')"/> </td> 
+			<td><input type="button" value="9" onclick="dis('9')"/> </td> 
+			<td><input type="button" value="+" onclick="dis('+')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="." onclick="dis('.')"/> </td> 
+			<td><input type="button" value="0" onclick="dis('0')"/> </td> 
+			<!-- solve function call function solve to evaluate value -->
+			<td><input type="button" value="=" onclick="solve()"/> </td> 
+			<td><input type="button" value="*" onclick="dis('*')"/> </td> 
+		</tr> 
+	</table> 
+</body> 
+</html> 
+
+</body>
+</html>
